@@ -11,10 +11,10 @@ glob("./**/*.*", {}, function (er, files) {
       result.push({
         name: arr[3],
         artist: "专辑-"+arr[2],
-        url: 'https://cdn.jsdelivr.net/gh/goldsubmarine/lizhi-resource@master/audio' + item.slice(1),
-        cover: 'https://cdn.jsdelivr.net/gh/goldsubmarine/lizhi-resource@master/audio/cover.png',
+        url: 'https://cdn.jsdelivr.net/gh/laonayt/lizhi-resource@master/audio' + item.slice(1),
+        cover: 'https://cdn.jsdelivr.net/gh/laonayt/lizhi-resource@master/audio/cover.png',
       })
-      download += `https://cdn.jsdelivr.net/gh/goldsubmarine/lizhi-resource@master/audio${item.slice(1)}\n`
+      download += `https://cdn.jsdelivr.net/gh/laonayt/lizhi-resource@master/audio${item.slice(1)}\n`
     } else {
       console.log(item)
     }
