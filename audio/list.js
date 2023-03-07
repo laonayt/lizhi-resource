@@ -42,7 +42,7 @@ var list = [
     cover: "https://testingcf.jsdelivr.net/gh/laonayt/lizhi-resource@master/audio/cover.png",
   },
   {
-    name: "李志 - 青春 (2012 Live).flac",
+    name: "李志 - 青春 (2012 Live)",
     artist: "专辑-108个关键词",
     url:
       "https://testingcf.jsdelivr.net/gh/laonayt/lizhi-resource@master/audio/108个关键词/李志 - 青春 (2012 Live).flac",
